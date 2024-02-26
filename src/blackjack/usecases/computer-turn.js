@@ -32,13 +32,13 @@ export const turnoComputadora = (
 
   setTimeout(() => {
     if (puntosComputadora === puntosMinimos) {
-      alert("Nadie gana :(");
+      alert("No one wins :(");
     } else if (puntosMinimos > 21) {
-      alert("Computadora gana");
+      alert("Computer wins");
     } else if (puntosComputadora > 21) {
-      alert("Jugador Gana");
+      alert("Player wins");
     } else {
-      alert("Computadora Gana");
+      alert("Computer wins");
     }
   }, 100);
 };

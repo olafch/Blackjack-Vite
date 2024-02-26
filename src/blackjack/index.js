@@ -45,12 +45,12 @@ btnPedir.addEventListener("click", () => {
   divCartasJugador.append(imgCarta);
 
   if (puntosJugador > 21) {
-    console.warn("Lo siento mucho, perdiste");
+    console.warn("I feel sorry, you've lost");
     btnPedir.disabled = true;
     btnDetener.disabled = true;
     turnoComputadora(puntosJugador, puntosHTML[1], divCartasComputadora, deck);
   } else if (puntosJugador === 21) {
-    console.warn("21, genial!");
+    console.warn("21, awesome!");
     btnPedir.disabled = true;
     btnDetener.disabled = true;
     turnoComputadora(puntosJugador, puntosHTML[1], divCartasComputadora, deck);
